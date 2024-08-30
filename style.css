@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: contain;
+}
+
+#flex-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quiz-title h1 {
+    font-family: "Matemasie", sans-serif;
+    color: #603F26;
+    font-size: 4rem;
+    margin: 100px 0px 50px 0px;
+    text-shadow: 2px 2px black;
+}
+
+#quiz-title h2 {
+    text-align: center;
+    color: #603F26;
+}
+
+h3 {
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-family: "Matemasie", sans-serif;
+    color: #603F26;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.question h4 {
+    font-size: 2.3rem;
+    color: #603F26;
+}
+
+label {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #603F26;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: pink;
+    border-radius: 10px;
+    color: #603F26;
+    border: solid, #603F26;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+.question {
+    text-align: center;
+}
+
+#text-results {
+font-size: 3rem;
+color:#603F26;
+}
+
+#results img {
+    height: 50vh;
+    justify-self: center;
+    align-self: center;
+}
+
+#results img:hover {
+    cursor: pointer;
+}
+
+#results {
+    text-align: center;
+}
+
+.results {
+    text-align: center;
+}
+
+.results h2 {
+   color:#603F26;
+}
+
+#img-results {
+  height: 50vh;
+}
+
+.paragraph {
+    width: 60vw;
+    background-color: skyblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.paragraphBanjo {
+    background-color: skyblue;
+}
+
+.paragraphFiona {
+    background-color: pink;
+}
+
+.paragraphYoshi {
+    background-color: #FABC3F
+}
+
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+li {
+list-style: none;
+font-size: 1.2rem;
+}
+
+.results p {
+    font-size: 1.5rem;
+    
+}
+
+@media (max-width: 650px) {
+    #quiz-title h1 {
+        font-size: 2rem;
+    }
+
+    #quiz-title h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.7rem;
+    }
+
+    .question h4 {
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 1.5rem;
+    }
+
+    .paragraph {
+        width: 90vw;
+    }
+}
