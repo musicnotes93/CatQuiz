@@ -96,9 +96,8 @@ color:#603F26;
    color:#603F26;
 }
 
-#img-results {
+.img-results {
   height: 50vh;
-  width: 90vw;
 }
 
 .paragraph {
@@ -159,4 +158,8 @@ font-size: 1.2rem;
     .paragraph {
         width: 90vw;
     }
+
+    .img-results {
+        width: 90vw;
+        object-fit: contain;
 }
