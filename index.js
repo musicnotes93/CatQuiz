@@ -18,11 +18,11 @@ var answers = [];
 $("#submit1").on("click", function() {
     $(".question").hide();
     $(".question2").show();
-    if ($("input[name='blue']").is(":checked")) {
+    if ($("input[id='blue']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='pink']").is(":checked")) {
+     } if ($("input[id='pink']").is(":checked")) {
          answers.push("2");
-      } if (($("input[name='yellow']").is(":checked"))) {
+      } if (($("input[id='yellow']").is(":checked"))) {
          answers.push("3");
       }
       console.log(answers);
@@ -30,11 +30,11 @@ $("#submit1").on("click", function() {
 $("#submit2").on("click", function() {
     $(".question2").hide();
     $(".question3").show();
-    if ($("input[name='sweet']").is(":checked")) {
+    if ($("input[id='sweet']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='sassy']").is(":checked")) {
+     } if ($("input[id='sassy']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='playful']").is(":checked")){
+      } if ($("input[id='playful']").is(":checked")){
          answers.push("3");
       }
       console.log(answers);
@@ -42,11 +42,11 @@ $("#submit2").on("click", function() {
 $("#submit3").on("click", function() {
     $(".question3").hide();
     $(".question4").show();
-    if ($("input[name='anything']").is(":checked")) {
+    if ($("input[id='anything']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='salmon']").is(":checked")) {
+     } if ($("input[id='salmon']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='tuna']").is(":checked")) {
+      } if ($("input[id='tuna']").is(":checked")) {
          answers.push("3");
       }
       console.log(answers);
@@ -54,11 +54,11 @@ $("#submit3").on("click", function() {
 $("#submit4").on("click", function() {
     $(".question4").hide();
     $(".question5").show();
-    if ($("input[name='inside']").is(":checked")) {
+    if ($("input[id='inside']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='outside']").is(":checked")) {
+     } if ($("input[id='outside']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='scary']").is(":checked")) {
+      } if ($("input[id='scary']").is(":checked")) {
          answers.push("3");
       }
       console.log(answers);
@@ -66,11 +66,11 @@ $("#submit4").on("click", function() {
 $("#submit5").on("click", function() {
     $(".question5").hide();
     $(".question6").show();
-    if ($("input[name='grass']").is(":checked")) {
+    if ($("input[id='grass']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='fire']").is(":checked")) {
+     } if ($("input[id='fire']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='water']").is(":checked")) {
+      } if ($("input[id='water']").is(":checked")) {
          answers.push("3");
       }
       console.log(answers);
@@ -78,11 +78,11 @@ $("#submit5").on("click", function() {
 $("#submit6").on("click", function() {
     $(".question6").hide();
     $(".question7").show();
-    if ($("input[name='whatever']").is(":checked")) {
+    if ($("input[id='whatever']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='girly']").is(":checked")) {
+     } if ($("input[id='girly']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='swift']").is(":checked")) {
+      } if ($("input[id='swift']").is(":checked")) {
          answers.push("3");
       }
       console.log(answers);
@@ -90,11 +90,11 @@ $("#submit6").on("click", function() {
 $("#submit7").on("click", function() {
     $(".question7").hide();
     $(".question8").show();
-    if ($("input[name='english']").is(":checked")) {
+    if ($("input[id='english']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='drama']").is(":checked")) {
+     } if ($("input[id='drama']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='recess']").is(":checked")) {
+      } if ($("input[id='recess']").is(":checked")) {
          answers.push("3");
       }
       console.log(answers);
@@ -102,11 +102,11 @@ $("#submit7").on("click", function() {
 $("#submit8").on("click", function() {
     $(".question8").hide();
     $(".question9").show();
-    if ($("input[name='pardon']").is(":checked")) {
+    if ($("input[id='pardon']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='goAway']").is(":checked")) {
+     } if ($("input[id='goAway']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='duh']").is(":checked")) {
+      } if ($("input[id='duh']").is(":checked")) {
          answers.push("3");
       }
       console.log(answers);
@@ -114,11 +114,11 @@ $("#submit8").on("click", function() {
 $("#submit9").on("click", function() {
     $(".question9").hide();
     $(".question10").show();
-    if ($("input[name='crime']").is(":checked")) {
+    if ($("input[id='crime']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='murder']").is(":checked")) {
+     } if ($("input[id='murder']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='fish']").is(":checked")) {
+      } if ($("input[id='fish']").is(":checked")) {
          answers.push("3");
       }
       console.log(answers);
@@ -126,11 +126,11 @@ $("#submit9").on("click", function() {
 $("#submit10").on("click", function() {
     $(".question10").hide();
     $("#results").show();
-    if ($("input[name='family']").is(":checked")) {
+    if ($("input[id='family']").is(":checked")) {
         answers.push("1");
-     } if ($("input[name='woods']").is(":checked")) {
+     } if ($("input[id='woods']").is(":checked")) {
          answers.push("2");
-      } if ($("input[name='beach']").is(":checked")) {
+      } if ($("input[id='beach']").is(":checked")) {
          answers.push("3");
       }
 })
