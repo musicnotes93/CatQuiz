@@ -10,7 +10,6 @@ body {
 }
 
 #flex-container {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +19,7 @@ body {
     font-family: "Matemasie", sans-serif;
     color: #603F26;
     font-size: 4rem;
-    margin: 100px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
     text-shadow: 2px 2px black;
 }
 
@@ -30,17 +29,17 @@ body {
 }
 
 h3 {
-    margin-top: 50px;
     font-size: 2.5rem;
     font-family: "Matemasie", sans-serif;
     color: #603F26;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .question h4 {
     font-size: 2.3rem;
     color: #603F26;
+    margin-bottom: 20px;
 }
 
 label {
@@ -53,10 +52,10 @@ button {
     margin-top: 20px;
     padding: 10px;
     font-size: 1rem;
-    background-color: pink;
+    background-color: #FFDFD6;
     border-radius: 10px;
     color: #603F26;
-    border: solid, #603F26;
+    border: solid 2px #603F26;
     font-weight: bold;
 }
 
@@ -67,6 +66,11 @@ button:hover {
 
 .question {
     text-align: center;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px 20px 50px 20px;
+
 }
 
 #text-results {
@@ -78,6 +82,7 @@ color:#603F26;
     height: 50vh;
     justify-self: center;
     align-self: center;
+    margin-bottom: 50px;
 }
 
 #results img:hover {
@@ -105,6 +110,7 @@ color:#603F26;
     background-color: skyblue;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 .paragraphBanjo {
@@ -131,10 +137,10 @@ font-size: 1.2rem;
 
 .results p {
     font-size: 1.5rem;
-    
 }
 
 @media (max-width: 650px) {
+
     #quiz-title h1 {
         font-size: 2rem;
     }
@@ -162,4 +168,5 @@ font-size: 1.2rem;
     .img-results {
         width: 90vw;
         object-fit: contain;
+}
 }
