@@ -65,6 +65,7 @@ button:hover {
 }
 
 .question {
+    max-width: 500px;
     text-align: center;
     background-color: pink;
     border-radius: 20px;
